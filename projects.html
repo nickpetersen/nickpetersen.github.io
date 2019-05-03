@@ -2,4 +2,13 @@
 layout: projects
 title: Projects
 ---
-<h1>These are my projects. test</h1>
+<section>
+    <div class="container">
+            <h1>Below are the projects I'll show on this page</h1>
+            {% for item in site.data.projects %}
+            <ul>
+                <li>{{ item.name }}</li>
+            </ul>
+            {% endfor %} 
+    </div>
+</section>
