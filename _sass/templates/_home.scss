@@ -1,0 +1,33 @@
+.profile-image {
+    height: 250px; 
+    width: 250px; 
+    background-image: url('http://127.0.0.1:4000/assets/images/nick-500.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 500px;
+    margin-bottom: 30px;
+}
+
+.hero-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.hero-text {
+    text-align: center;
+    p {
+        padding-top: 20px;
+    }
+}
+
+.projects {
+    margin-top: 100px;
+    .project {
+        width: 100%;
+        height: 400px;
+        background-color: rgb(230, 230, 230);
+    }
+}
