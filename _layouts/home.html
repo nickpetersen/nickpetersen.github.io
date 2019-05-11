@@ -24,8 +24,8 @@
       <div class="container">
         <div class="row">
             {% for item in site.data.projects %}
-            <div class="col-md-6">
-                <div class="project"></div>
+            <div class="col-lg-6 col-md-12">
+                <div class="project image-fill" style="background-image: url('{{ item.background }} ');"></div>
             </div>
             {% endfor %} 
         </div>

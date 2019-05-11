@@ -1,13 +1,18 @@
 - name: Saylorville Map Interactive
   link: /_includes/project.html
+  background: /assets/images/portfolio-projects.png
 - name: MidAmerican VR Experience
   link: /_includes/project.html
+  background: /assets/images/portfolio-projects.png
 - name: Land Home Financial PHP Migration & Management
   link: /_includes/project.html
+  background: /assets/images/portfolio-projects.png
 - name: Krause Gateway Center Website Design & Dev
   link: /_includes/project.html
+  background: /assets/images/portfolio-projects.png
 - name: Krause Group Design & Dev
   link: /_includes/project.html
+  background: /assets/images/portfolio-projects.png
 
 
 
