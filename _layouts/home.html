@@ -23,12 +23,11 @@
     <section class="projects">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <div class="project"></div>
-          </div>
-          <div class="col-md-6 ">
-            <div class="project"></div>
-          </div>
+            {% for item in site.data.projects %}
+            <div class="col-md-6">
+                <div class="project"></div>
+            </div>
+            {% endfor %} 
         </div>
       </div>
     </section>
